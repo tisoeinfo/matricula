@@ -5,4 +5,6 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index');
+
+// Este signo / hace referencia al controlador Home y al método index
+$routes->get('/', 'MatriculaController::index');
